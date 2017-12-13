@@ -39,6 +39,7 @@ namespace RestrictionOperators
             public string Category { get; set; }
             public decimal UnitPrice { get; set; }
             public int UnitsInStock { get; set; }
+            public int UnitsInStock1 { get; set; }
         }
 
         public class Order
